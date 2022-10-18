@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+
+* {
+    margin: 0;
+    padding-top: 0;
+    vertical-align: baseline;
+    list-style: none;
+}
+
+div {
+    position: relative;
+    z-index: 2;
+}
+
+h1 {
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 20px;
+    
+
+}
+
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+footer {
+    font-size: 1.1em;
+    padding-top: 20px;
+    color: #fff;
+    position: relative;
+    text-align: center;
+}
+
+#wrapper {
+    background-color: #333;
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#quote-box {
+    border-radius: 5px;
+    position: relative;
+    width: 450px;
+    padding: 40px 50px;
+    display: table;
+    background-color: #fff;
+    z-index: -1;
+}
+
+i {
+    font-size: 1em;
+}
+
+.fa-quote-left {
+    padding-right: 10px;
+}
+
+.fa-quote-right {
+    padding-left: 10px;
+}
+
+.quote-text {
+    text-align: center;
+    width: 450px;
+    height: auto;
+    clear: both;
+    font-weight: 500;
+    font-size: 1.75em;
+}
+
+.quote-author {
+    width: 450px;
+    height: auto;
+    clear: both;
+    padding-top: 20px;
+    font-size: 1em;
+    text-align: right;
+}
+
+.buttons {
+    width: 450px;
+    margin: auto;
+    display: block;
+}
+
+.button{
+    height: 38px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #333;
+    outline: none;
+    font-size: 0.85em;
+    padding: 8px 18px;
+    margin-top: 30px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+#tweet-quote, #tumblr-quote {
+    float: left;
+    padding: 0px;
+    padding-top: 8px;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 5px;
+    height: 30px;
+    width: 40px;
+}
+
+#new-quote {
+    float: right;
+}
